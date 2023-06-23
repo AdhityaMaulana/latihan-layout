@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
 
 }
 
@@ -90,9 +91,9 @@ article button{
 #bio-container img{
     margin-top: 20px;
     margin-left: 40px;
-    width: 150px;
+    width: 135px;
     float: left;
-    margin-right: 20px;
+    margin-right: 42px;
     border: 1px solid gray;
 }
 #bio-info p{
@@ -109,6 +110,9 @@ article button{
     text-align: center;
     margin: 20px 0;
 }
+#bio-info h3 p{
+    margin-bottom: 10px;
+}
 
 #bio-info ul{
     margin: 0;
@@ -122,6 +126,7 @@ article button{
 #bio-info .text-right{
     display: block;
     text-align: right;
+    margin-bottom: 20px;
     margin-right: 40px;
     border-bottom: 2px solid gray;
     padding-bottom: 10px;
@@ -129,4 +134,3 @@ article button{
 .fix-container{
     clear: both;
 }
-
